@@ -4,8 +4,9 @@ vegetables.remove("onions")
 
 vegetables.append("carrots")
 vegetables.append("cucumbers")
+vegetables.sort()
 
-print("Updates Vegetables Inventory: ", vegetables)
+print("Updated Vegetable Inventory: ", vegetables)
 
 if "carrots" in vegetables:
     print("Carrots are already in the list.")
