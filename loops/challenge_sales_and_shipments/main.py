@@ -19,5 +19,11 @@ shipment_received = [
     ["Oranges", 30], 
     ["Mangoes", 40]
 ]
-for index in range(len(products)):
-    products[index[1]] - units_sold[index[1]]
+for i in range(len(products)):
+    products[i][1] -= units_sold[i][1]
+
+for i in range(len(products)):
+    products[i][1] += shipment_received[i][1]  
+
+print("Final stock levels for all products: ", products)
+    
