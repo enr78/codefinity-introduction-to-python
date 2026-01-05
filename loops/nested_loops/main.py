@@ -1,0 +1,15 @@
+produce = ["Tomatoes", "Lettuce"]
+dairy = ["Milk", "Cheese"]
+
+groceries = [produce, dairy]
+
+for section in groceries:
+    for item in section:
+        print("Item name: ", item)
+        
+
+
+
+# for item in produce:
+#     for thing in dairy:
+#         print(item + " " + thing)
